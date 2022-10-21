@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+}
+
+
+body {
+	background-color: #2B2B2B;
+	max-width: 100vw;
+}
+
+/*CSS FOR NAVIGATION BAR*/
+.navbar {
+	border-bottom: 1px solid lightgreen;
+	background-color: #2B2B2B;
+}
+
+.navbar-brand {
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+}
+
+.navbar-toggler-icon {
+	background-image: url("./images/list.png");
+}
+
+.nav-item {
+	letter-spacing: 2px;
+	font-weight: 400;
+	color: white;
+}
+
+a:hover {
+	color: lightgreen;
+}
+
+a:active {
+	color:  lightgreen;
+}
+
+.favicon {
+	background-color: lightgreen;
+	border-radius: 5px;
+}
+
+/*CSS FOR LANDING PAGE*/
+.landing {
+	padding: 2rem;
+	color:  #7AFF3E;
+}
+
+.profile-pic {
+	border: 4px solid lightgreen;
+}
+
+.greeting-text {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+}
+ .small-text {
+ 	color: white;
+ 	font-weight: 100;
+ }
+
+ .large-text {
+ 	color: lightgreen;
+ 	font-weight: 600;
+ }
+
+ .medium-text {
+ 	color: white;
+ 	font-weight: 400;
+ }
+
+ .social-media-icon {
+ 	background-color: lightgreen;
+ 	border: 1px solid lightgreen;
+ 	border-radius: 5px;
+ }
+
+ .social-media-text {
+ 	color: white;
+ 	font-weight: 200;
+ }
+
+ .social-media-text:hover {
+ 	color: lightgreen;
+ 	font-weight: 400;
+ }
+
+ td {
+ 	padding: 4px;
+ }
+.btn {
+	width: 125px;
+}
+
+/* STYLE FOR ABOUT ME SECTION */
+.about-me-div {
+	background-color: #212121;
+	color: white;
+}
+
+.about-me {
+	padding: 3rem;
+}
+
+.about-me-title {
+	color: lightgreen;
+}
+
+.about-me-card-holder {
+	background-color: #2B2B2B;
+	border-radius: 25px;
+	padding: 10px;
+	border: 1px solid lightgreen;
+
+}
+
+.about-me-edu-icon {
+	background-color: lightgreen;
+	width: 30px;
+	border-radius: 5px;
+	padding: 1px;
+}
+
+.about-me-tools-icon {
+	border: 4px solid lightgreen;
+	background-color: #2B2B2B;
+}
+
+/* STYLE FOR PROJECTS SECTION */
+.projects-div {
+	background-color: #212121;
+	color: white;
+}
+
+.projects-title {
+	color: lightgreen;
+}
+
+
+
+
+/*MEDIA QUERY FOR RESPONSIVE GREETING FONT SIZE*/
+/*FOR SMALL SCREEN ONLY*/
+@media (min-width: 100px) and (max-width: 480px) {
+	/*PROFILE PIC*/
+	.profile-pic { width: 200px; height: 200px;}
+
+	/*GREETINGS*/
+    .small-text { font-size: 1rem; line-height: 1.1rem;}
+    .large-text { font-size: 2rem; line-height: 2.2rem;}
+    .medium-text { font-size: 1rem; letter-spacing: 3px; line-height: 1rem;}
+
+    /*GREETING BUTTON*/
+    .btn {
+    	margin-top: 0.7rem;
+    	margin-bottom: 0.4rem;
+    	font-weight: 700;
+    	font-size: 0.8rem;
+    	letter-spacing: 1px;
+    	background-color: lightgreen;
+    	border: none;
+    	border-radius: 15px;
+    	color: black;
+    }
+
+    /*SOCIAL MEDIA*/
+    .social-media-icon {
+    	width: 1.8rem;
+    }
+
+    .social-media-text {
+    	font-size: 1rem;
+    }
+
+    /*ABOUT ME*/
+    .about-me-title {
+    	letter-spacing: 4px;
+    	font-size: 0.7rem;
+    }
+    .about-me-subtitle {
+    	font-size: 1.5rem;
+    	font-weight: 700;
+    }
+    .about-me-caption {
+    	font-size: 1rem;
+    	font-weight: 300;
+    }
+
+    /*PROJECTS*/
+    .projects-title {
+    	letter-spacing: 4px;
+    	font-size: 0.7rem;
+    }
+}
+
+/*FOR MEDIUM SCREEN TO XL*/
+@media (min-width: 481px) {
+	/*PROFILE PIC*/
+	.profile-pic { width: 250px; height: 250px; }
+
+	/*GREETINGS*/
+    .small-text { font-size: 1.5rem; line-height: 1.8rem;}
+    .large-text { font-size: 4rem; line-height: 3.8rem;}
+    .medium-text { font-size: 2rem; letter-spacing: 5px; line-height: 2rem; }
+
+    /*GREETING BUTTON*/
+    .btn {
+    	margin-top: 1.5rem;
+    	margin-bottom: 1rem;
+    	font-weight: 700;
+    	font-size: 1rem;
+    	letter-spacing: 1px;
+    	background-color: lightgreen;
+    	border: none;
+    	border-radius: 20px;
+    	color: black;
+        }
+
+    /*SOCIAL MEDIA*/
+    .social-media-icon {
+    	width: 2rem;
+    }
+
+	.social-media-text {
+        	font-size: 1.2rem;
+    }
+
+    /*ABOUT ME*/
+    .about-me-title {
+    	letter-spacing: 6px;
+    	font-size: 1rem;
+    }
+    .about-me-subtitle {
+    	font-size: 2rem;
+    	font-weight: 500;
+    }
+    .about-me-caption {
+    	font-size: 1.2rem;
+    	font-weight: 300;
+    }
+
+    .about-me-card-holder {
+    	height:200px;
+    }
+
+    /*PROJECTS*/
+    .projects-title {
+    	letter-spacing: 6px;
+    	font-size: 1rem;
+    }
+}
+
