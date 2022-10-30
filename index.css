@@ -219,6 +219,19 @@ body {
 	border-radius: 25px;
 }
 
+.modal-body-title {
+	letter-spacing: 3px;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.modal-body-subtitle {
+	letter-spacing: 1px;
+	font-size: 1rem;
+	font-weight: 200;
+}
+
+
 .send-email-button {
 	background-image: linear-gradient(100deg, aqua, lightgreen);
 	font-weight: 700;
@@ -230,6 +243,20 @@ body {
 }
 
 .send-email-button:hover {
+	background-image: linear-gradient(10deg, aqua, lightgreen);
+}
+
+.close-btn {
+	background-image: linear-gradient(100deg, aqua, lightgreen);
+	font-weight: 700;
+	font-size: 0.9rem;
+	color: #212121;
+	border: none;
+	border-radius: 15px;
+	letter-spacing: 2px;
+}
+
+.close-btn:hover {
 	background-image: linear-gradient(10deg, aqua, lightgreen);
 }
 
