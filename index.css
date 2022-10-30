@@ -91,11 +91,9 @@ body {
  }
 
  .social-media-icon {
- 	background-image: linear-gradient(100deg, aqua, lightgreen);
- 	border-width: 1px;
- 	border-style: solid;
- 	border-image: linear-gradient(100deg, aqua, lightgreen);
+ 	background-image: linear-gradient(120deg, aqua, lightgreen);
  	border-radius: 5px;
+ 	padding: 1px;
  }
 
  .social-media-text {
@@ -119,7 +117,7 @@ body {
 }
 
 .ask-me-button:hover {
-	background-image: linear-gradient(30deg, aqua, lightgreen);
+	background-image: linear-gradient(10deg, aqua, lightgreen);
 }
 
 /* STYLE FOR ABOUT ME SECTION */
@@ -145,10 +143,7 @@ body {
 }
 
 .about-me-edu-icon {
-	background-image: linear-gradient(100deg, aqua, lightgreen);
- 	border-width: 1px;
- 	border-style: solid;
- 	border-image: linear-gradient(100deg, aqua, lightgreen);
+	background-image: linear-gradient(120deg, aqua, lightgreen);
 	width: 30px;
 	border-radius: 5px;
 	padding: 1px;
@@ -181,7 +176,11 @@ body {
 }
 
 .visit-project-button {
-	background-color: aqua;
+	background-image: linear-gradient(100deg, aqua, lightgreen);
+}
+
+.visit-project-button:hover {
+	background-image: linear-gradient(10deg, aqua, lightgreen);
 }
 
 /* STYLE FOR CONTACT ME SECTION */
@@ -208,7 +207,7 @@ body {
 
 .form-control {
 	border-radius: 10px;
-	background-color: #CCFFFF;
+	background-image: linear-gradient(45deg, #99FFFF, #D1F8D1);
 	border: none;
 	font-size: 1.2rem;
 }
@@ -221,13 +220,17 @@ body {
 }
 
 .send-email-button {
-	background-color: aqua;
+	background-image: linear-gradient(100deg, aqua, lightgreen);
 	font-weight: 700;
 	font-size: 0.9rem;
 	color: #212121;
 	border: none;
   border-radius: 15px;
   letter-spacing: 2px;
+}
+
+.send-email-button:hover {
+	background-image: linear-gradient(10deg, aqua, lightgreen);
 }
 
 /*--------------------------------------------------- MEDIA QUERY ----------------------------------------------------------*/
