@@ -436,8 +436,7 @@ body {
 /*CUSTOM CARDHOLDER SIZE FOR ABOUT ME*/
 @media (min-width: 992px) {
 	.about-me-card-holder{
-		height: 200px;
-		overflow: hidden;
+		min-height: 75%;
 		text-overflow: ellipsis;
 	}
 }
